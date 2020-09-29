@@ -38,3 +38,14 @@ function reverser(str) {
 }
 
 console.log(reverser("hello"));
+
+
+
+
+// reverse integer
+function revInt(num) {
+  return num.toString().split("").reverse().join("");
+};
+
+
+console.log(Number(revInt(12345)));
